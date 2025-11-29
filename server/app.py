@@ -1,11 +1,16 @@
 # 服务端主应用文件
 
+import sys
+import os
+
+# 添加项目根目录到Python路径
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
-import os
 import datetime
-from .database import db
-from .config import config
+from server.database import db
+from server.config import config
 
 # 创建Flask应用
 app = Flask(__name__)

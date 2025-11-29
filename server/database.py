@@ -2,7 +2,7 @@
 
 import mysql.connector
 from mysql.connector import Error
-from .config import config
+from server.config import config
 
 class Database:
     def __init__(self, config_name='default'):
