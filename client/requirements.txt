@@ -1,0 +1,17 @@
+# 客户端依赖包
+
+# 系统监控
+psutil>=5.9.0
+
+# 截图功能
+Pillow>=9.0.0
+# 可选：PyQt5或PyQt4（用于截图）
+# PyQt5>=5.15.0
+# PyQt4>=4.12.0
+
+# 网络通信
+# Python 2.7已内置urllib2和urllib
+# Python 3.x已内置urllib.request和urllib.parse
+
+# 其他依赖
+python-dotenv>=0.20.0

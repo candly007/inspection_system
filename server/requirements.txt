@@ -1,0 +1,15 @@
+# 服务端依赖包
+
+# Web框架
+flask==2.3.2
+flask-cors==4.0.0
+
+# 数据库连接
+mysql-connector-python==8.0.33
+
+# 其他依赖
+python-dotenv==1.0.0
+
+# 可选：如果需要使用FastAPI替代Flask
+# fastapi==0.95.1
+# uvicorn==0.22.0
